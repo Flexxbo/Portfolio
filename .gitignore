@@ -85,7 +85,7 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-# dist
+# dist //I excluded it because I have my main files in a folder called dist
 
 # Gatsby files
 .cache/
@@ -142,5 +142,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,sass,node
