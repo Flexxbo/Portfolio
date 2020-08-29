@@ -16,7 +16,7 @@ $background-color: #000;*/
 
 .btn-main {
   color: #333;
-  background-color: #ffbc00; }
+  background-color: #ffc000; }
 
 .btn-light {
   color: #333;
@@ -29,10 +29,10 @@ $background-color: #000;*/
 button[class^="btn-"]:hover,
 a[class^="btn-"]:hover,
 input[class^="btn-"]:hover {
-  background-color: #ffbc00; }
+  background-color: #ffc000; }
 
 .bg-main {
-  background: #ffbc00;
+  background: #ffc000;
   color: #fff; }
 
 .bg-dark {
@@ -89,7 +89,7 @@ input[class^="btn-"]:hover {
 .bottom-line {
   height: 2px;
   width: 3rem;
-  background: #ffbc00;
+  background: #ffc000;
   display: block;
   margin: 0 auto 1rem auto; }
 
@@ -117,8 +117,9 @@ img {
   width: 100%; }
 
 #logo {
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
   color: #fff;
   text-transform: uppercase; }
 
@@ -139,7 +140,7 @@ img {
     #main-nav a:hover {
       border-color: #ccc; }
     #main-nav a.current {
-      border-color: #ffbc00; }
+      border-color: #ffc000; }
 
 #header-home {
   background: url(../img/showcase.jpg) no-repeat center right/cover;
@@ -155,7 +156,7 @@ img {
 #header-inner {
   background: url(../img/showcase.jpg) no-repeat 20% 30%/cover;
   height: 5.5rem;
-  border-bottom: 3px solid #ffbc00; }
+  border-bottom: 3px solid #ffc000; }
 
 #home-a .specials {
   margin-top: 3rem;
@@ -163,7 +164,7 @@ img {
   grid-gap: 1rem;
   grid-template-columns: repeat(4, 1fr); }
   #home-a .specials .fas {
-    color: #ffbc00;
+    color: #ffc000;
     padding-bottom: 0.4rem; }
 
 #home-b .stats {
@@ -193,7 +194,7 @@ img {
     top: 0;
     right: 0;
     font-size: 28px;
-    background: #ffbc00;
+    background: #ffc000;
     color: #fff;
     border-radius: 50%;
     height: 15px;
@@ -213,7 +214,7 @@ img {
     position: relative;
     transition: all 1s; }
     #home-c .process-icon:hover {
-      background: #ffbc00;
+      background: #ffc000;
       color: #fff;
       width: 90px;
       height: 90px;
@@ -231,7 +232,7 @@ img {
 
 #about-a .bio {
   grid-area: bio;
-  border-left: 3px solid #ffbc00; }
+  border-left: 3px solid #ffc000; }
 
 #about-a .award-1 {
   grid-area: aw1; }
@@ -245,8 +246,20 @@ img {
 #about-a .award-1 .fas,
 #about-a .award-2 .fas,
 #about-a .award-3 .fas {
-  color: #ffbc00;
+  color: #ffc000;
   margin: 1rem; }
+
+#about-b .progress {
+  overflow: hidden;
+  height: 20px;
+  background: #ccc;
+  border-radius: 5px;
+  margin-bottom: 0.6rem; }
+  #about-b .progress div {
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    background: #ffc000; }
 
 #main-footer {
   background: #333;
@@ -267,4 +280,4 @@ img {
       text-align: center;
       padding: 0.5rem; }
       #main-footer .footer-content .social .fab:hover {
-        background: #ffbc00; }
+        background: #ffc000; }
