@@ -195,6 +195,15 @@ img {
   border-radius: 50%;
   color: #fff;
   text-transform: uppercase; }
+  #logo:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition-duration: 2s;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    transition-duration: 2s; }
 
 #main-nav {
   display: flex;
@@ -204,19 +213,19 @@ img {
     display: flex; }
   #main-nav li {
     padding: 1rem 1.5rem; }
-  #main-nav a {
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    border-bottom: 3px transparent solid;
-    transition: border-color 0.5s; }
-    #main-nav a:hover {
-      border-color: #ccc; }
-    #main-nav a.current {
-      border-color: #ffc000; }
+    #main-nav li a {
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+      border-bottom: 3px transparent solid;
+      transition: border-color 0.5s; }
+      #main-nav li a:hover {
+        border-color: #ccc; }
+      #main-nav li a.current {
+        border-color: #ffc000; }
 
 #header-home {
-  background: url(../img/showcase.jpg) no-repeat center right/cover;
+  background: url(../img/websiteich3.jpg) no-repeat center right/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
@@ -225,9 +234,12 @@ img {
     #header-home .header-content h1 {
       font-size: 4rem;
       line-height: 1.2; }
+      #header-home .header-content h1 .txt-type {
+        color: #ffc000; }
 
 #header-inner {
-  background: url(../img/showcase.jpg) no-repeat 20% 30%/cover;
+  /*background: $bg-image no-repeat 20% 30% / cover;*/
+  background: #333;
   height: 5.5rem;
   border-bottom: 3px solid #ffc000; }
 
@@ -295,70 +307,66 @@ img {
       #home-c .process-icon:hover .process-step {
         background: #333; }
 
-#about-a .about-info {
-  display: grid;
-  grid-template-areas: "bioimage bio bio" "aw1 aw2 aw3";
-  grid-gap: 1.2rem; }
-
-#about-a .bio-image {
-  grid-area: bioimage; }
-
-#about-a .bio {
-  grid-area: bio;
-  border-left: 3px solid #ffc000; }
-
-#about-a .award-1 {
-  grid-area: aw1; }
-
-#about-a .award-2 {
-  grid-area: aw2; }
-
-#about-a .award-3 {
-  grid-area: aw3; }
-
-#about-a .award-1 .fas,
-#about-a .award-2 .fas,
-#about-a .award-3 .fas {
-  color: #ffc000;
-  margin: 1rem; }
-
-#about-b .progress {
-  overflow: hidden;
-  height: 20px;
-  background: #ccc;
-  border-radius: 5px;
-  margin-bottom: 0.6rem; }
-  #about-b .progress div {
-    height: 100%;
-    color: #fff;
-    text-align: center;
-    background: #ffc000; }
-
-#about-c .about-logos {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2rem; }
-  #about-c .about-logos img {
-    width: 70%; }
-
-#about-d .testimonials {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 0.5rem; }
-  #about-d .testimonials ul {
-    list-style: none;
-    margin-top: 1rem;
-    display: flex;
-    align-items: center; }
-  #about-d .testimonials p {
-    border: 1px solid #ccc;
+#about {
+  background-color: black; }
+  #about-a .about-info {
+    display: grid;
+    grid-template-areas: "bioimage bio bio" "aw1 aw2 aw3";
+    grid-gap: 1.2rem; }
+  #about-a .bio-image {
+    grid-area: bioimage;
+    height: 300px;
+    width: auto;
+    margin: auto; }
+  #about-a .bio {
+    grid-area: bio;
+    border-left: 3px solid #ffc000; }
+  #about-a .award-1 {
+    grid-area: aw1; }
+  #about-a .award-2 {
+    grid-area: aw2; }
+  #about-a .award-3 {
+    grid-area: aw3; }
+  #about-a .award-1 .fas,
+  #about-a .award-2 .fas,
+  #about-a .award-3 .fas {
+    color: #ffc000;
+    margin: 1rem; }
+  #about-b .progress {
+    overflow: hidden;
+    height: 20px;
+    background: #ccc;
     border-radius: 5px;
-    padding: 5px; }
-  #about-d .testimonials img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 0.5rem; }
+    margin-bottom: 0.6rem; }
+    #about-b .progress div {
+      height: 100%;
+      color: #fff;
+      text-align: center;
+      background: #ffc000; }
+  #about-c .about-logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem; }
+    #about-c .about-logos img {
+      width: 70%; }
+  #about-d .testimonials {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.5rem; }
+    #about-d .testimonials ul {
+      list-style: none;
+      margin-top: 1rem;
+      display: flex;
+      align-items: center; }
+    #about-d .testimonials p {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 5px; }
+    #about-d .testimonials img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 0.5rem; }
 
 #contact-a .text-fields {
   display: grid;

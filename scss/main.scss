@@ -37,6 +37,17 @@ img {
   border-radius: 50%;
   color: #fff;
   text-transform: uppercase;
+
+  &:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition-duration: 2s;
+    -moz-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    transition-duration: 2s;
+  }
 }
 // Main Nav
 #main-nav {
@@ -50,21 +61,21 @@ img {
 
   li {
     padding: 1rem 1.5rem;
-  }
 
-  a {
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    border-bottom: 3px transparent solid;
-    transition: border-color 0.5s;
+    a {
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+      border-bottom: 3px transparent solid;
+      transition: border-color 0.5s;
 
-    &:hover {
-      border-color: $medium-color;
-    }
+      &:hover {
+        border-color: $medium-color;
+      }
 
-    &.current {
-      border-color: $main-color;
+      &.current {
+        border-color: $main-color;
+      }
     }
   }
 }
@@ -84,11 +95,17 @@ img {
       h1 {
         font-size: 4rem;
         line-height: 1.2;
+
+        .txt-type {
+          color: $main-color;
+        }
       }
     }
   }
   &-inner {
-    background: $bg-image no-repeat 20% 30% / cover;
+    /*background: $bg-image no-repeat 20% 30% / cover;*/
+    background: $dark-color;
+
     height: 5.5rem;
     border-bottom: 3px solid $main-color;
   }
@@ -196,6 +213,7 @@ img {
 
 // About Sections
 #about {
+  background-color: black;
   &-a {
     .about-info {
       display: grid;
@@ -208,6 +226,9 @@ img {
     // Grid Area
     .bio-image {
       grid-area: bioimage;
+      height: 300px;
+      width: auto;
+      margin: auto;
     }
 
     .bio {
