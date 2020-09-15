@@ -370,6 +370,23 @@ img {
 
 // Impressum
 #impressum {
+  h2,
+  h3,
+  h4 {
+    margin-top: 1rem;
+  }
+  div {
+    margin-top: 1.2rem;
+  }
+}
+
+//Datenschutz
+#datenschutz {
+  h2,
+  h3,
+  h4 {
+    margin-top: 1rem;
+  }
   div {
     margin-top: 1.2rem;
   }
@@ -386,6 +403,22 @@ img {
     justify-content: space-between;
     height: 5rem;
     align-items: center;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+      border-bottom: 3px transparent solid;
+      transition: border-color 0.5s;
+
+      &:hover {
+        border-color: $medium-color;
+      }
+
+      &.current {
+        border-color: $main-color;
+      }
+    }
 
     .social .fab {
       margin-right: 1rem;

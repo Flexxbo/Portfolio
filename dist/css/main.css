@@ -399,7 +399,20 @@ img {
   text-align: center;
   font-size: 4rem; }
 
+#impressum h2,
+#impressum h3,
+#impressum h4 {
+  margin-top: 1rem; }
+
 #impressum div {
+  margin-top: 1.2rem; }
+
+#datenschutz h2,
+#datenschutz h3,
+#datenschutz h4 {
+  margin-top: 1rem; }
+
+#datenschutz div {
   margin-top: 1.2rem; }
 
 #main-footer {
@@ -411,6 +424,16 @@ img {
     justify-content: space-between;
     height: 5rem;
     align-items: center; }
+    #main-footer .footer-content a {
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+      border-bottom: 3px transparent solid;
+      transition: border-color 0.5s; }
+      #main-footer .footer-content a:hover {
+        border-color: #ccc; }
+      #main-footer .footer-content a.current {
+        border-color: #ffc000; }
     #main-footer .footer-content .social .fab {
       margin-right: 1rem;
       border: 2px #fff solid;
