@@ -399,6 +399,9 @@ img {
   text-align: center;
   font-size: 4rem; }
 
+#impressum div {
+  margin-top: 1.2rem; }
+
 #main-footer {
   background: #333;
   color: #fff;
