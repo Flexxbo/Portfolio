@@ -251,6 +251,9 @@ img {
   #home-a .specials .fas {
     color: #ffc000;
     padding-bottom: 0.4rem; }
+  #home-a .specials .fab {
+    color: #ffc000;
+    padding-bottom: 0.4rem; }
 
 #home-b .stats {
   display: grid;
@@ -328,10 +331,13 @@ img {
   #about-a .award-3 {
     grid-area: aw3; }
   #about-a .award-1 .fas,
-  #about-a .award-2 .fas,
-  #about-a .award-3 .fas {
+  #about-a .award-2 .fas {
     color: #ffc000;
     margin: 1rem; }
+  #about-a .award-3 .fas {
+    color: grey;
+    margin: 1rem;
+    opacity: 0.4; }
   #about-b .progress {
     overflow: hidden;
     height: 20px;
@@ -346,7 +352,8 @@ img {
   #about-c .about-logos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2rem; }
+    grid-gap: 2rem;
+    color: red; }
     #about-c .about-logos img {
       width: 70%; }
   #about-d .testimonials {

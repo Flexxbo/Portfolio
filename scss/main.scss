@@ -125,6 +125,10 @@ img {
         color: $main-color;
         padding-bottom: 0.4rem;
       }
+      .fab {
+        color: $main-color;
+        padding-bottom: 0.4rem;
+      }
     }
   }
 
@@ -247,10 +251,14 @@ img {
     }
 
     .award-1 .fas,
-    .award-2 .fas,
-    .award-3 .fas {
+    .award-2 .fas {
       color: $main-color;
       margin: 1rem;
+    }
+    .award-3 .fas {
+      color: grey;
+      margin: 1rem;
+      opacity: 0.4;
     }
   }
   // About Section: B
@@ -277,6 +285,7 @@ img {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 2rem;
+      color: red;
 
       img {
         width: 70%;
