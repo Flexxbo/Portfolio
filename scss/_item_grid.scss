@@ -8,6 +8,7 @@
   position: relative;
   background: $main-color;
   overflow: hidden;
+  margin: 2px;
 
   &::after {
     content: "";
@@ -83,7 +84,7 @@
     top: 50%;
     transform: translateY(-50%);
   }
-  
+
   &-text-title {
     font-size: 2rem;
     padding: 0 1rem;
