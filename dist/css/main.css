@@ -436,12 +436,17 @@ img {
       text-decoration: none;
       color: #fff;
       text-transform: uppercase;
+      /*
       border-bottom: 3px transparent solid;
-      transition: border-color 0.5s; }
-      #main-footer .footer-content a:hover {
-        border-color: #ccc; }
-      #main-footer .footer-content a.current {
-        border-color: #ffc000; }
+      transition: border-color 0.5s;
+
+      &:hover {
+        border-color: $medium-color;
+      }
+
+      &.current {
+        border-color: $main-color;
+      }*/ }
     #main-footer .footer-content .social .fab {
       margin-right: 1rem;
       border: 2px #fff solid;

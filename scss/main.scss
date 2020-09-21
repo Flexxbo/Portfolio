@@ -417,6 +417,7 @@ img {
       text-decoration: none;
       color: #fff;
       text-transform: uppercase;
+      /*
       border-bottom: 3px transparent solid;
       transition: border-color 0.5s;
 
@@ -426,7 +427,7 @@ img {
 
       &.current {
         border-color: $main-color;
-      }
+      }*/
     }
 
     .social .fab {
