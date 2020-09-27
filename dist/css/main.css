@@ -376,6 +376,13 @@ img {
       border-radius: 50%;
       margin-right: 0.5rem; }
 
+#worksub .work-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  #worksub .work-content .sample-img {
+    height: auto; }
+
 #contact-a .text-fields {
   display: grid;
   grid-template-areas: "name email" "subject phone" "message message";

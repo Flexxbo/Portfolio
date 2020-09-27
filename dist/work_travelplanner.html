@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/4b3cfe935d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Reiseplaner | Web-Entwickler & Designer</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header-inner">
+      <div class="container">
+        <nav id="main-nav">
+          <a href="index.html" id="logoid"
+            ><img src="img/Logo_FB_Code2.png" alt="Mein Portfolio" id="logo"
+          /></a>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Arbeit</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Section A: Reiseplaner-->
+    <section id="worksub">
+      <div class="container">
+        <h2 class="section-title">Reiseplaner Kuba</h2>
+        <div class="bottom-line"></div>
+        <!-- <p class="lead">Web Applikation zum planen der eigenen Reise</p> -->
+        <div class="work-content">
+          <div class="sample-img">
+            <img src="img/items/Nexttravel.png" alt="" />
+          </div>
+
+          <div class="sample-descript">
+            <h3>Beschreibung</h3>
+            <p>
+              Diese Web Applikation habe ich im Rahmen meiner Weiterbildung zum
+              Full Stack Webdeveloper aufgebaut. Die Daten werden von einem
+              Headless-CMS via Web-API an das Frontend übermittelt. <br />
+              Eintragungen in das CMS werden dynamisch von der Applikation
+              abgerufen. Die Navigationsleiste bezieht Ihre Einträge aus den
+              CMS-Einträgen, die Destinationsseiten werden dynamisch erstellt.
+              Der Reiseplaner markiert die Destinationen auf der Karte über die
+              Koordinaten im CMS und die Informationen in den Tabs unterhalb der
+              interaktiven Karte, werden dynamisch dargestellt. <br />
+              Das Frontend basiert auf React + Next.js. Durch die Konstellation
+              mit Next.js wird dank Serverside-Rendering das Optimum für die
+              SEO-Performance herausgeholt.
+            </p>
+            <h3>Technologien</h3>
+            <h4>Backend:</h4>
+            <ul>
+              <li>Contentful - Headless CMS</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+            </ul>
+            <h4>Frontend:</h4>
+            <ul>
+              <li>HTML / CSS</li>
+              <li>Bootstrap</li>
+              <li>React</li>
+              <li>Next.js</li>
+              <li>Leaflet.js</li>
+            </ul>
+            <h3>Links</h3>
+            <a href="https://github.com/Flexxbo/Nexttravelapp" target="_blank"
+              >Github Repository</a
+            >
+            <br />
+            <a href="https://nexttravelapp.herokuapp.com/" target="_blank"
+              >Reiseplaner hosted with Heroku</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright &copy; 2020. All Rights Reserved</p>
+        <div class="social">
+          <a href="https://www.facebook.com/felix.bucheler.7" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="https://github.com/Flexxbo" target="_blank">
+            <i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.instagram.com/felix_buecheler/" target="_blank">
+            <i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/felix-buecheler/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+        <div>
+          <a href="impressum.html">Impressum</a> ||
+          <a href="datenschutz.html">Datenschutz</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

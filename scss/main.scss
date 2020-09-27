@@ -322,6 +322,20 @@ img {
   }
 }
 
+// Work Subpages
+
+#worksub {
+  .work-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .sample-img {
+      height: auto;
+    }
+  }
+}
+
 // Contact Page
 #contact {
   &-a {
