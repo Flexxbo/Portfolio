@@ -501,11 +501,15 @@ img {
     #main-nav li {
       padding: 1rem; }
   #header-home {
-    height: 10rem;
+    height: rem;
     border-bottom: 3px solid #ffbc00;
     background-position: 20% 30%; }
     #header-home .header-content {
-      display: none; }
+      text-align: center;
+      padding-top: 5%; }
+      #header-home .header-content h1 {
+        font-size: 2rem;
+        line-height: 1.2; }
   #header-inner {
     height: 10rem; }
   #home-a .specials,
