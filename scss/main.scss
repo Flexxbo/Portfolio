@@ -100,6 +100,12 @@ img {
           color: $main-color;
         }
       }
+
+      p.txt-type {
+        margin-top: 15px;
+        font-weight: 900;
+        color: $main-color;
+      }
     }
   }
   &-inner {

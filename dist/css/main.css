@@ -237,6 +237,10 @@ img {
       line-height: 1.2; }
       #header-home .header-content h1 .txt-type {
         color: #ffbc00; }
+    #header-home .header-content p.txt-type {
+      margin-top: 15px;
+      font-weight: 900;
+      color: #ffbc00; }
 
 #header-inner {
   /*background: $bg-image no-repeat 20% 30% / cover;*/
