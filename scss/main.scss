@@ -119,8 +119,11 @@ img {
 
 // Home Sections
 #home {
-  // Home Section B
+  // Home Section A
+
   &-a {
+    background-color: $light-color;
+
     .specials {
       margin-top: 3rem;
       display: grid;
