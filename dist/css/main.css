@@ -16,7 +16,7 @@ $background-color: #000;*/
 
 .btn-main {
   color: #333;
-  background-color: #ffc000; }
+  background-color: #ffbc00; }
 
 .btn-light {
   color: #333;
@@ -29,10 +29,10 @@ $background-color: #000;*/
 button[class^="btn-"]:hover,
 a[class^="btn-"]:hover,
 input[class^="btn-"]:hover {
-  background-color: #ffc000; }
+  background-color: #ffbc00; }
 
 .bg-main {
-  background: #ffc000;
+  background: #ffbc00;
   color: #fff; }
 
 .bg-dark {
@@ -89,7 +89,7 @@ input[class^="btn-"]:hover {
 .bottom-line {
   height: 2px;
   width: 3rem;
-  background: #ffc000;
+  background: #ffbc00;
   display: block;
   margin: 0 auto 1rem auto; }
 
@@ -100,7 +100,7 @@ input[class^="btn-"]:hover {
 
 .item {
   position: relative;
-  background: #ffc000;
+  background: #ffbc00;
   overflow: hidden;
   margin: 2px; }
   .item::after {
@@ -216,14 +216,14 @@ img {
     padding: 1rem 1.5rem; }
     #main-nav li a {
       text-decoration: none;
-      color: #fff;
+      color: white;
       text-transform: uppercase;
       border-bottom: 3px transparent solid;
       transition: border-color 0.5s; }
       #main-nav li a:hover {
         border-color: #ccc; }
       #main-nav li a.current {
-        border-color: #ffc000; }
+        border-color: #ffbc00; }
 
 #header-home {
   background: url(../img/websiteich3.jpg) no-repeat center right/cover;
@@ -236,13 +236,13 @@ img {
       font-size: 4rem;
       line-height: 1.2; }
       #header-home .header-content h1 .txt-type {
-        color: #ffc000; }
+        color: #ffbc00; }
 
 #header-inner {
   /*background: $bg-image no-repeat 20% 30% / cover;*/
   background: #333;
   height: 5.5rem;
-  border-bottom: 3px solid #ffc000; }
+  border-bottom: 3px solid #ffbc00; }
 
 #home-a .specials {
   margin-top: 3rem;
@@ -250,10 +250,10 @@ img {
   grid-gap: 1rem;
   grid-template-columns: repeat(4, 1fr); }
   #home-a .specials .fas {
-    color: #ffc000;
+    color: #ffbc00;
     padding-bottom: 0.4rem; }
   #home-a .specials .fab {
-    color: #ffc000;
+    color: #ffbc00;
     padding-bottom: 0.4rem; }
 
 #home-b .stats {
@@ -283,7 +283,7 @@ img {
     top: 0;
     right: 0;
     font-size: 28px;
-    background: #ffc000;
+    background: #ffbc00;
     color: #fff;
     border-radius: 50%;
     height: 15px;
@@ -303,7 +303,7 @@ img {
     position: relative;
     transition: all 1s; }
     #home-c .process-icon:hover {
-      background: #ffc000;
+      background: #ffbc00;
       color: #fff;
       width: 90px;
       height: 90px;
@@ -324,7 +324,7 @@ img {
     margin: auto; }
   #about-a .bio {
     grid-area: bio;
-    border-left: 3px solid #ffc000; }
+    border-left: 3px solid #ffbc00; }
   #about-a .award-1 {
     grid-area: aw1; }
   #about-a .award-2 {
@@ -333,7 +333,7 @@ img {
     grid-area: aw3; }
   #about-a .award-1 .fas,
   #about-a .award-2 .fas {
-    color: #ffc000;
+    color: #ffbc00;
     margin: 1rem; }
   #about-a .award-3 .fas {
     color: grey;
@@ -349,7 +349,7 @@ img {
       height: 100%;
       color: #fff;
       text-align: center;
-      background: #ffc000; }
+      background: #ffbc00; }
   #about-c .about-logos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -464,7 +464,7 @@ img {
       text-align: center;
       padding: 0.5rem; }
       #main-footer .footer-content .social .fab:hover {
-        background: #ffc000; }
+        background: #ffbc00; }
 
 @media (max-width: 800px) {
   #header-home {
@@ -480,7 +480,7 @@ img {
       padding: 1rem; }
   #header-home {
     height: 10rem;
-    border-bottom: 3px solid #ffc000;
+    border-bottom: 3px solid #ffbc00;
     background-position: 20% 30%; }
     #header-home .header-content {
       display: none; }
