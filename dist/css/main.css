@@ -443,8 +443,6 @@ img {
   background: #333;
   color: #fff;
   height: 5rem; }
-  #main-footer div {
-    border: 1px solid red; }
   #main-footer .footer-content {
     display: flex;
     justify-content: space-between;
