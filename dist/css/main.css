@@ -443,6 +443,8 @@ img {
   background: #333;
   color: #fff;
   height: 5rem; }
+  #main-footer div {
+    border: 1px solid red; }
   #main-footer .footer-content {
     display: flex;
     justify-content: space-between;
@@ -464,7 +466,7 @@ img {
         border-color: $main-color;
       }*/ }
     #main-footer .footer-content .social .fab {
-      margin-right: 1rem;
+      margin-right: 0rem;
       border: 2px #fff solid;
       border-radius: 50%;
       height: 20px;
