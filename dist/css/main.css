@@ -330,7 +330,10 @@ img {
     margin: auto; }
   #about-a .bio {
     grid-area: bio;
-    border-left: 3px solid #ffbc00; }
+    border-left: 3px solid #ffbc00;
+    padding: 20px;
+    text-align: start;
+    margin: auto; }
   #about-a .award-1 {
     grid-area: aw1; }
   #about-a .award-2 {
