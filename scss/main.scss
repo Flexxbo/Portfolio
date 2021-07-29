@@ -339,6 +339,9 @@ img {
 // Work Subpages
 
 #worksub {
+  .container {
+    padding: 25px;
+  }
   .work-content {
     display: flex;
     flex-wrap: wrap;

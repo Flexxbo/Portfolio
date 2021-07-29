@@ -391,6 +391,9 @@ img {
       border-radius: 50%;
       margin-right: 0.5rem; }
 
+#worksub .container {
+  padding: 25px; }
+
 #worksub .work-content {
   display: flex;
   flex-wrap: wrap;
